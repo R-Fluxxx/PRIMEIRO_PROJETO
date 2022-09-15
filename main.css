@@ -1,0 +1,200 @@
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header ,
+section h2,
+section h3,
+form button {
+    font-family: 'Patua One', cursive;
+    font-weight: normal;
+}
+
+header h1,
+section h2{
+    font-weight: normal;
+}
+
+body,
+input,
+textarea{
+    font-family: 'Kalam', cursive;
+}
+
+body{
+    background-color: #1C1C1C;
+}
+
+body > header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a{
+    color: wheat;
+    text-decoration: none;
+}
+
+header img{
+    width: 20%;
+}
+
+header time{
+    color: white;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigos article iframe {
+    width: 100%;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2{
+    color: #FFFF00;
+}
+
+section h3{
+    color: wheat;
+}
+
+section h2,
+.artigos article {
+    margin-bottom: 20px;
+}
+
+.artigos article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigos article a {
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigos article a:hover{
+    text-decoration: underline;
+}
+
+.artigos article p{
+    color: white;
+}
+
+.artigos article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#contact {
+    background-color: #2F4F4F;
+}
+
+#contato .artigos article a{
+    background-color: green;
+    color: wheat;
+}
+
+.Social-links img{
+    height: 80px;
+}
+
+.Social-links li{
+    display: inline;
+    margin-right: 8px;;
+}
+
+.Social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contacts-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    height: 180px;
+    resize: none;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #1C1C1C;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #425ba2;
+}
+
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+
+footer{
+    background-color: #1C1C1C;
+    color: wheat;
+    padding: 16px 0;
+}
